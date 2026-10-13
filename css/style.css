@@ -7,10 +7,11 @@
     box-sizing: border-box;
 }
 /* shared related style */
-.influencer > *{
-    width: 80%;
-    max-width: 1274px;
-    margin: 100px auto 0px auto;
+main > section{
+    max-width: 1155px;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 100px;
 }
 .display-flex{
     display: flex;
@@ -22,11 +23,34 @@
     border: none;
     border-radius: 41px;
 }
+.btn-primary2{
+    color: #ffff;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+}
 .light-dark{
     color: #3A3A3A;
 }
+.icon{
+    width: 16px;
+    height: 14px;
+    margin-left: 12px;
+}
+.icon2{
+    width: 16px;
+    height: 14px;
+    margin-left: 8px;
+    filter: pink;
+}
 
 /* navbar related style */
+.hero-section{
+    max-width: 1155px;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 87px;
+}
 .navbar{
     justify-content: space-between;
     align-items: center;
@@ -115,6 +139,21 @@
     margin: 0px auto;
     margin-top: 6px;
 }
+.rating{
+    max-width: 152px;
+    padding: 8px 0px;
+}
+.star{
+    width: 16px;
+    height: 16px;
+    color: #FB8200;
+}
+.ratings{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #5E6366;
+    margin-left: 5px;
+}
 .card-description{
     color: #787885;
     font-size: 0.87rem;
@@ -135,3 +174,40 @@
     border: none;
     background: none;
 }
+/* featured-product related style */
+.featured-products{
+    max-width: 1110px;
+    gap: 96px;
+    align-items: center;
+}
+.products-tittle{
+    font-size: 2.375rem;
+    font-weight: 700;
+    color: #0A0826;
+}
+.products-description{
+    font-weight: 700;
+    color: #6C6C6C;
+}
+/* footer related style */
+.social-activities{
+    background-color: #0A0826;
+    color: #ffff;
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px 589px;
+}
+.footer-tittle{
+    margin: 0px auto;
+    margin-bottom: 3px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.copyright{
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+.social-icon img {
+    filter: brightness(0) invert(1);
+}
+
