@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.influencer{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* shared related style */
+.influencer > *{
+    width: 80%;
+    max-width: 1274px;
+    margin: 100px auto 0px auto;
+}
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+    color: #ffff;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 41px;
+}
+.light-dark{
+    color: #3A3A3A;
+}
+
+/* navbar related style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nav-links{
+    gap: 34px;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+}
+/* banner related style */
+.hero{
+    align-items: center;
+    justify-content: center;
+    gap: 119px;
+    max-width: 1155px;
+}
+.banner-container{
+    max-width: 582px;
+}
+.banner-tittle{
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+.banner-description{
+    font-weight: 600;
+}
+.banner-image{
+    width: 440px;
+    height: 440px;
+    background-image: url("/images/Circle\ design.svg");
+    background-size: cover;
+}
+/* sponsor related style */
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    max-width: 1110px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, transparent, #ddd, transparent) 1;
+    padding: 36px 62px;
+}
