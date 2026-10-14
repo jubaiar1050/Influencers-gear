@@ -87,7 +87,7 @@ main > section{
 .banner-description{
     font-weight: 600;
 }
-.banner-image{
+.banner-image img{
     width: 440px;
     height: 440px;
     background-image: url("/images/Circle\ design.svg");
@@ -102,6 +102,9 @@ main > section{
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(to right, transparent, #ddd, transparent) 1;
     padding: 36px 62px;
+}
+.sponsor-logo img{
+    width: 100%;
 }
 /* population  collection related style*/
 .collection-container{
@@ -185,6 +188,9 @@ main > section{
     font-weight: 700;
     color: #0A0826;
 }
+.product-image{
+    width: 100%;
+}
 .products-description{
     font-weight: 700;
     color: #6C6C6C;
@@ -210,4 +216,46 @@ main > section{
 .social-icon img {
     filter: brightness(0) invert(1);
 }
-
+/* hide section */
+.hide{
+    display: none;
+}
+/* media query related style */
+@media screen and (max-width: 576px){
+    .collection{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .featured-products,
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .products-container{
+        text-align: center;
+    }
+    .social-activities{
+        padding: 30px 80px;
+    }
+    .sponsors{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        gap: 30px;
+        padding: 10px;
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hero{
+        gap: 40px;
+    }
+    .banner-container{
+        text-align: center;
+    }
+    .banner-image img{
+        width: 316px;
+        height: 316px;
+    }
+}
