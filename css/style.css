@@ -240,15 +240,21 @@ main > section{
         justify-content: center;
         align-items: center;
         border: none;
-        gap: 30px;
+        gap: 25px;
         padding: 10px;
     }
     .navbar{
         flex-direction: column;
         justify-content: center;
     }
+    .nav-links{
+        gap: 25px;
+    }
     .hero{
         gap: 40px;
+    }
+    .banner-tittle{
+        font-size: 2.5rem;
     }
     .banner-container{
         text-align: center;
@@ -256,5 +262,6 @@ main > section{
     .banner-image img{
         width: 316px;
         height: 316px;
+        background-image: none;
     }
 }
