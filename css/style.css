@@ -89,7 +89,7 @@ main > section{
 .banner-image img{
     width: 440px;
     height: 440px;
-    background-image: url("/images/Circle\ design.svg");
+    background-image: url("../images/Circle\ design.svg");
     background-size: cover;
 }
 /* sponsor related style */
